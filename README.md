@@ -31,8 +31,8 @@ A modern, secure, and feature-rich property listing platform built with Node.js,
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/property-listing-system.git
-cd property-listing-system
+git clone https://github.com/codder077/Property_listing.git
+cd Property_Listing-system
 ```
 
 2. Install dependencies:
