@@ -53,6 +53,37 @@ CORS_ORIGIN=http://localhost:3000
 npm run dev
 ```
 
+## 🚀 Deployment
+
+### Deploying to Vercel
+
+1. Install Vercel CLI:
+```bash
+npm i -g vercel
+```
+
+2. Login to Vercel:
+```bash
+vercel login
+```
+
+3. Deploy to Vercel:
+```bash
+vercel
+```
+
+4. For production deployment:
+```bash
+vercel --prod
+```
+
+Make sure you have the following environment variables set in your Vercel project settings:
+- `MONGODB_URI`
+- `JWT_SECRET`
+- `CORS_ORIGIN`
+
+The project includes a `vercel.json` configuration file that handles the serverless deployment settings.
+
 ## 📚 API Documentation
 
 ### Authentication Endpoints
